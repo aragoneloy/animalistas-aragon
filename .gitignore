@@ -1,0 +1,4 @@
+cat .gitignore
+*.json
+node_modules/
+

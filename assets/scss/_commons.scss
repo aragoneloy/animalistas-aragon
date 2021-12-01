@@ -1,0 +1,14 @@
+// Definimos varialbes globales
+
+$success: rgb(93, 93, 223);
+$danger: rgb(255, 34, 0);
+
+// displya
+$d-block: block;
+$d-flex: flex;
+
+@for $i from 1 through 3 {
+    .textSize-#{$i}{font-size: 1em * $i;}
+}
+
+
