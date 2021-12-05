@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quienes somos</title>
+    <meta name="description" content="Nuestra ONG lleva mas de diez años rescatando animales maltratados">
+    <meta name="keywords" content="historia fundacion creacion ong protectora de animales">
+    <title>Nuestra historia</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href=".\assets\css\styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +17,11 @@
 <script src="https://kit.fontawesome.com/91db8b06b1.js" crossorigin="anonymous"></script> 
 </head>
 <body class="cuerpo">
+
     <!-- nav de bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-light " id="botonera">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img src=".\assets\imgs\logo.jpg" height="100" width="100" alt="" id="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,74 +35,89 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./conocenos.html">Conocenos</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link active" href="./contacto.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Contacto
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="./ayudar.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Quiero ayudar
-                    </a>
+                    <a class="nav-link " aria-current="page" href="./contacto.html">Contacto</a>
+                </li>
+                    
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./ayudar.html">Quiero ayudar</a>
                 </li>
             </ul>
             <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
             </form>
         </div>
         </div>
     </nav>
 
-
 <!-- fin nav -->
     
    
        
-    
-    <main id="conocenos">
-        
-        <h1>Nos une el amor por los animales</h1>
-        <img src="./assets/imgs/alireza-zohoor-parvaz-ni2V0LWkXiw-unsplash.jpg" alt="">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim obcaecati aliquid modi veniam consequatur, ea aperiam recusandae debitis expedita voluptatibus maxime rerum provident, praesentium eveniet pariatur maiores. Quia, sed qui?
-        Vero ea, placeat explicabo quae, sequi exercitationem soluta ad, totam in odio eligendi earum iusto magni optio animi autem a? Dolorum hic similique officiis aliquam repudiandae eveniet ut cumque sed?</p>
-    </main>
-
-    
-    <footer class="pie">
-        <div class="pie1">
-            <h3>Enlaces utiles</h3>
-
-            <ul>
-                <li> 
-                    <a href="https://www.facebook.com/SaludAnimalRosario/">Instituto Municipal de Salud Animal</a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="pie2">
-            <h3>Contacto</h3>
-            
-        </div>
-
-        <div class="pie3">
-            <h3>Redes Sociales</h3>
-            <ul>
+    <div class="container-fluid">
+    <main id="conocenos" class="bg-dark bg-opacity-75">
+       <div class="row align-items-center justify-content-center gx-5 gy-3 mt-5">
+            <img  src="./assets/imgs/alireza-zohoor-parvaz-ni2V0LWkXiw-unsplash.jpg" class="col-lg-4 col-md-6 bg-dark p-4 rounded-3" alt="cachorros jugando">
+            <div class="col-lg-4 col-md-6 border-5">
+                <div class="row gy-3  text-light">
+                    <h1 class="col-lg-12 text-primary">Nos une el amor por los animales</h1>
                 
-                <li><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/animalistasderosario/?hl=es-la" target="_blank"> Instagram</a></li>
-                <li><i class="fab fa-facebook-square"></i><a href="https://es-la.facebook.com/AnimalistasdeRosario/" target="_blank"> Facebook</a></li>
-                <li><i class="fab fa-twitter"></i><a href="https://twitter.com/_animalistas" target="_blank"> Twitter</a></li>
-            </ul>
-        </div>
-    </footer>
+                    <p class="col-lg-12 align-self-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim obcaecati aliquid modi veniam consequatur, ea aperiam recusandae debitis expedita voluptatibus maxime rerum provident, praesentium eveniet pariatur maiores. Quia, sed qui?
+                    Vero ea, placeat explicabo quae, sequi exercitationem soluta ad, totam in odio eligendi earum iusto magni optio animi autem a? Dolorum hic similique officiis aliquam repudiandae eveniet ut cumque sed?</p>
+                </div>
+            </div>
+            <div class="row d-none d-md-flex p-4 mb-4 col-lg-8 mt-5 text-light rounded rounded-start">
+                <h2 class="fs-1 text-primary">Asi comenzo todo</h2>  
+                <p class="fs-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eveniet voluptate magnam possimus repellendus. Aliquam, maxime facilis culpa similique error beatae, laboriosam natus minus nisi illum pariatur placeat voluptate dolores.
+                Tempore soluta reiciendis distinctio eius beatae rem excepturi fugit necessitatibus omnis aliquam velit quos debitis, eum amet error! Corporis, officiis sit. Accusantium cupiditate inventore omnis totam. Iusto voluptatum ad necessitatibus!
+                Reprehenderit cupiditate maiores repudiandae ratione nam perspiciatis minus sit eum numquam ad quam a, eaque voluptatibus iure, enim voluptate autem repellat! Magnam provident, quasi nobis quam quo rerum culpa iste.
+                Adipisci doloribus culpa in eaque quo consequatur quasi? Dicta commodi quia tenetur praesentium ab ipsum rerum quidem voluptas. Aspernatur tenetur eveniet quae necessitatibus iure neque. Quidem quas enim adipisci necessitatibus.
+                Sunt nobis placeat quidem maiores voluptatibus, vero repellat perspiciatis laudantium minima hic, tempore impedit aspernatur molestias quis in minus dicta totam id eligendi! Accusantium quaerat obcaecati saepe sequi, aliquam alias.</p>
+            </div>
+        </div> 
+
+    </main>
+    
+</div>
+
+
+
+    <div class="container-fluid ">
+        <footer class="pie">
+            <div class="row">
+                <div class="pie1 col-lg 4 col-sm-12">
+                    <h3 class="d-flex justify-content-center ">Enlaces utiles</h3>
+
+                    <ul class="d-flex justify-content-center ">
+                        <li> 
+                            <a href="https://www.facebook.com/SaludAnimalRosario/">Instituto Municipal de Salud Animal</a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pie2 col-lg 4 col-sm-12">
+                    <h3 class="d-flex justify-content-center" >Contacto</h3>
+                    
+                </div>
+
+                <div class="pie3 col-lg 4 col-sm-12">
+                    <h3 class="d-flex justify-content-center">Redes Sociales</h3>
+                    <ul>
+                        <div class="row">
+                            <li class="d-flex col-lg-12 justify-content-center "><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/animalistasderosario/?hl=es-la" target="_blank">  Instagram</a></li>
+                            <li class="d-flex col-lg-12 justify-content-center"><i class="fab fa-facebook-square"></i><a href="https://es-la.facebook.com/AnimalistasdeRosario/" target="_blank">  Facebook</a></li>
+                            <li class="d-flex col-lg-12 justify-content-center"><i class="fab fa-twitter"></i><a href="https://twitter.com/_animalistas" target="_blank">  Twitter</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

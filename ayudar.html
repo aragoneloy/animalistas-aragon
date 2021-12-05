@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="description" content="Tu aporte nos permite darle una mejor vida a los animales">
+  <meta name="keywords" content="donar colaborar ayudante animales perros gatos ong">
   <title>Ayuda a un animalito</title>
   
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -16,10 +19,10 @@
 </head>
 <body class="cuerpo">
     <!-- nav de bootstrap -->
-    <nav class=" navbar navbar-expand-lg " id="botonera">
+    <nav class="navbar navbar-expand-lg navbar-light " id="botonera">
         <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img class="nav__logo--small" src=".\assets\imgs\logo.jpg" alt="" id="logo">
+            <img src=".\assets\imgs\logo.jpg" height="100" width="100" alt="" id="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                 <li class="nav-item">
-                    <a class="nav__link nav__link--color nav-link active" aria-current="page" href="./proyectos.html">Proyectos</a>
+                    <a class="nav-link active" aria-current="page" href="./proyectos.html">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav__link nav__link--color nav-link" href="./conocenos.html">Conocenos</a>
+                    <a class="nav-link" href="./conocenos.html">Conocenos</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav__link nav__link--color nav-link active" href="./contacto.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link active" href="./contacto.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Contacto
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -44,14 +47,14 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav__link nav__link--color nav-link active" href="./ayudar.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link active" href="./ayudar.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Quiero ayudar
                     </a>
                 </li>
             </ul>
             <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success nav__button--success" type="submit">Buscar</button>
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
         </div>
         </div>
@@ -61,7 +64,7 @@
 <!-- fin nav -->
     
 <!-- carrousel -->
-    <div class="conteiner-fluid row justify-content-center mt-3">
+    <div class="conteiner-fluid row justify-content-center">
         <div id="carouselExampleCaptions" class="col-lg-8 col-md-12  carousel slide"  data-bs-ride="carousel">
             <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -70,21 +73,21 @@
             </div>
             <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./assets/imgs/carousel3.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/imgs/carousel3.jpg" class="d-block w-100" alt="elefante alimentandose de un arbol">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/imgs/manh-phung-FsrECS_i2Ms-unsplash.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/imgs/manh-phung-FsrECS_i2Ms-unsplash.jpg" class="d-block w-100" alt="grupo de voluntarios viajando y riendo">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/imgs/su-nyoto-kY8m5uDIW7Y-unsplash.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/imgs/su-nyoto-kY8m5uDIW7Y-unsplash.jpg" class="d-block w-100" alt="grupo de voluntarios posando frente a una aldea">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
@@ -103,27 +106,26 @@
     </div>
 
 <!-- fin carrousel -->
-    <div class="container-fluid mb-5">
-    
-        <header class="header__container">
-            <h1 class="header__title header__title--color header__title--uppercase textSize-3  ">Necesitamos de tu colaboracion</h1>
-            <p class="header__text header__text--small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, dolorum facilis vero, aliquam odit aperiam accusamus veritatis deserunt suscipit perferendis ullam cum. Necessitatibus corrupti quia, nisi veniam aut illo culpa.
+    <div class="container-fluid">
+        <header class="colaborar">
+            <h1 class="display-1">Necesitamos de tu colaboracion</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, dolorum facilis vero, aliquam odit aperiam accusamus veritatis deserunt suscipit perferendis ullam cum. Necessitatibus corrupti quia, nisi veniam aut illo culpa.
             </p>
         </header>
 
     
         <div class="row gx-5 justify-content-around gy-5">
-            <section class="section__container section__container--backgroundcolor section__container--border col-lg-3 col-md-10 col-xs-12">
-                <h2 class="section__title section__title--color textSize-2">$100 al mes hacen una gran diferencia </h2>
-                <button class="section__button section__button--hover">Ayudanos a ayudar</button>
+            <section class="ayudarDonar col-lg-3 col-md-10 col-xs-12">
+                <h2>$100 al mes hacen una gran diferencia </h2>
+                <button>Ayudanos a ayudar</button>
             </section>
         
-            <section class="section__container section__container--backgroundcolor section__container--border col-lg-3 col-md-10 col-xs-12">
-                <h2 class="section__title section__title--color textSize-2"> Forma parte de nuestro equipo de voluntarios</h2>
-                <button class="section__button section__button--hover">Anotate ahora!</button>
+            <section class="ayudarDonar col-lg-3 col-md-10 col-xs-12">
+                <h2> Forma parte de nuestro equipo de voluntarios</h2>
+                <button>Anotate ahora!</button>
             </section>
         
-            <aside class="col-lg-3 col-md-10 col-xs-12">
+            <aside class="videoAyuda col-lg-3 col-md-10 col-xs-12">
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RaXVo4SnpAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </aside>
         </div>
@@ -131,33 +133,37 @@
         
     
             <footer class="pie">
-               
-                <div class="pie1 col-lg-4 col-xs-12">
-                    <h3 class="footer__header footer__header--color textSize-1">Enlaces utiles</h3>
+                <div class="container-fluid ">
+                   <div class="row text-center">
+                        <div class="pie1 col-lg-4 col-xs-12">
+                            <h3>Enlaces utiles</h3>
 
-                    <ul>
-                        <li class="footer__listitem"> 
-                            <a href="https://www.facebook.com/SaludAnimalRosario/">Instituto Municipal de Salud Animal</a>
-                        </li>
-                        <li class="footer__listitem">
-                            <a href="#"></a>
-                        </li>
-                    </ul>
-                </div>
+                            <ul>
+                                <li> 
+                                    <a href="https://www.facebook.com/SaludAnimalRosario/">Instituto Municipal de Salud Animal</a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
 
-                <div class="pie2 col-lg-4 col-xs-12">
-                    <h3 class="footer__header footer__header--color textSize-1">Contacto</h3>
-                    
-                </div>
+                        <div class="pie2 col-lg-4 col-xs-12">
+                            <h3>Contacto</h3>
+                            
+                        </div>
 
-                <div class="pie3 col-lg-4 col-xs-12">
-                    <h3 class="footer__header footer__header--color textSize-1">Redes Sociales</h3>
-                    <ul>
-                        <li class="footer__listitem footer__listitem--align"><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/animalistasderosario/?hl=es-la" target="_blank"> Instagram</a></li>
-                        <li class="footer__listitem footer__listitem--align"><i class="fab fa-facebook-square"></i><a href="https://es-la.facebook.com/AnimalistasdeRosario/" target="_blank"> Facebook</a></li>
-                        <li class="footer__listitem footer__listitem--align"><i class="fab fa-twitter"></i><a href="https://twitter.com/_animalistas" target="_blank"> Twitter</a></li>
-                    </ul>
-                </div>
+                        <div class="pie3 col-lg-4 col-xs-12">
+                            <h3>Redes Sociales</h3>
+                            <ul>
+                                
+                                <li><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/animalistasderosario/?hl=es-la" target="_blank"> Instagram</a></li>
+                                <li><i class="fab fa-facebook-square"></i><a href="https://es-la.facebook.com/AnimalistasdeRosario/" target="_blank"> Facebook</a></li>
+                                <li><i class="fab fa-twitter"></i><a href="https://twitter.com/_animalistas" target="_blank"> Twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
             </footer>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
