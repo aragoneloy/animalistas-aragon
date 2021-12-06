@@ -72,3 +72,21 @@
     background-color: rgb(83, 120, 155); 
     color: rgba(191, 172, 116, 1);   
 }
+
+.logro:hover{
+    transform: scale(1.03, 1.03);
+    background-color: lightblue;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.nuestrosLogros h2{
+    color:rgba(63, 105, 191, 1);
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 3rem;
+    font-weight: 500;
+    width: 100%;
+    letter-spacing: 10px;
+}

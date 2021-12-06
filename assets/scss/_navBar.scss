@@ -1,6 +1,11 @@
 #botonera{
     background-color: rgba(68, 75, 114, 1);
+    
 }
+#nav-enlaces{
+    color: rgba(191, 172, 116, 1);
+}
+
 
 .nav__logo--small{
     width: 50px;
@@ -8,20 +13,18 @@
 }
 .nav__link{
     text-decoration: none;
-       
+    
     background-image: linear-gradient(rgba(191, 172, 116, 1), rgba(191, 172, 116, 1)    );
    	background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
 }
-.nav__link--color{
-    color: rgba(191, 172, 116, 1); 
-}
+
 
 .nav__link:hover, .nav__link:focus {
     background-size: 100% 2px;
-    color: rgba(191, 172, 116, 1);
+    
 
 }   
 .nav__button--success{

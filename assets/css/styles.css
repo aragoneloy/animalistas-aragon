@@ -12,6 +12,22 @@
 .textSize-3 {
   font-size: 3em; }
 
+html {
+  font-size: 62.5%;
+  margin: auto; }
+
+body {
+  padding: 0;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #e4e4e4; }
+
+h1 {
+  color: #3f69bf; }
+
+h2 {
+  font-size: 3em; }
+
 .header__container {
   padding: 10px;
   margin: 10px; }
@@ -67,14 +83,38 @@
   background-color: #53789b;
   color: #bfac74; }
 
+.logro:hover {
+  transform: scale(1.03, 1.03);
+  background-color: lightblue;
+  transition: 0.5s;
+  cursor: pointer; }
+
+.nuestrosLogros h2 {
+  color: #3f69bf;
+  text-align: center;
+  padding: 20px 0 0 0;
+  font-size: 3rem;
+  font-weight: 500;
+  width: 100%;
+  letter-spacing: 10px; }
+
 footer {
   background-color: #bfac74;
   bottom: 0;
   width: 100%;
-  font-size: 1rem;
   padding-top: 10px;
   background: #a78555;
   background: linear-gradient(0deg, #a78555 0%, #dacdb2 100%); }
+  footer ul {
+    text-decoration: none; }
+    footer ul li a {
+      color: #3f69bf;
+      text-decoration: none;
+      font-size: 1.5rem; }
+  footer h3 {
+    color: #444b72;
+    font-weight: 600;
+    font-size: 2.5rem; }
 
 .pie {
   display: flex;
@@ -87,11 +127,6 @@ footer {
 .footer__listitem--align {
   text-align: center; }
 
-footer ul li a {
-  color: #3f69bf;
-  text-decoration: none;
-  font-size: 1em; }
-
 .footer__header {
   text-transform: uppercase;
   text-align: center; }
@@ -101,6 +136,9 @@ footer ul li a {
 
 #botonera {
   background-color: #444b72; }
+
+#nav-enlaces {
+  color: #bfac74; }
 
 .nav__logo--small {
   width: 50px;
@@ -114,12 +152,8 @@ footer ul li a {
   background-size: 0% 2px;
   transition: background-size .3s; }
 
-.nav__link--color {
-  color: #bfac74; }
-
 .nav__link:hover, .nav__link:focus {
-  background-size: 100% 2px;
-  color: #bfac74; }
+  background-size: 100% 2px; }
 
 .nav__button--success {
   color: aliceblue;
