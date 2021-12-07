@@ -19,42 +19,33 @@
 </head>
 <body class="cuerpo">
     <!-- nav de bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light " id="botonera">
+    <nav class="navbar navbar-expand-lg textSize-2  " id="botonera">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src=".\assets\imgs\logo.jpg" height="100" width="100" alt="" id="logo">
+        <a class="navbar-brand " href="index.html">
+            <img src=".\assets\imgs\logo.jpg" class="nav__logo--small" alt="" id="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./proyectos.html">Proyectos</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-2"  >
+                <li class="nav__link nav-item  mx-3 " >
+                    <a class="nav-link active " id="nav-enlaces" aria-current="page" href="./proyectos.html">Proyectos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./conocenos.html">Conocenos</a>
+                <li class="nav-item   mx-3">
+                    <a class="nav-link nav__link" id="nav-enlaces" href="./conocenos.html">Conocenos</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link active" href="./contacto.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Contacto
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                <li class="nav-item nav__link  mx-3" >
+                    <a class="nav-link  " aria-current="page" id="nav-enlaces" href="./contacto.html">Contacto</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="./ayudar.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Quiero ayudar
-                    </a>
+                    
+                <li class="nav-item nav__link  mx-3" >
+                    <a class="nav-link " aria-current="page" id="nav-enlaces" href="./ayudar.html">Quiero ayudar</a>
                 </li>
             </ul>
             <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light nav__button--success" type="submit">Buscar</button>
             </form>
         </div>
         </div>
@@ -132,39 +123,41 @@
     </div>
         
     
-            <footer class="pie">
-                <div class="container-fluid ">
-                   <div class="row text-center">
-                        <div class="pie1 col-lg-4 col-xs-12">
-                            <h3>Enlaces utiles</h3>
+    <footer class="pie">
+        <div class="container-fluid ">
+        
+            <div class="row text-center">
+                <div class="pie1 col-lg-4 col-sm-12">
+                    <h3 class=" ">Enlaces utiles</h3>
 
-                            <ul>
-                                <li> 
-                                    <a href="https://www.facebook.com/SaludAnimalRosario/">Instituto Municipal de Salud Animal</a>
-                                </li>
-                                <li>
-                                    <a href="#"></a>
-                                </li>
-                            </ul>
-                        </div>
+                    <ul>
+                        <li class="footer__listitem"> 
+                            <a href="https://www.facebook.com/SaludAnimalRosario/">Instituto Municipal de Salud Animal</a>
+                        </li>
+                        <li class="footer__listitem">
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
 
-                        <div class="pie2 col-lg-4 col-xs-12">
-                            <h3>Contacto</h3>
-                            
-                        </div>
+                <div class="pie2 col-lg-4 col-sm-12">
+                    <h3>Contacto</h3>
+                    <p>Telefono: 254-8487 - Calle Falsa 123, Rosario, Santa Fe</p>
+                </div>
 
-                        <div class="pie3 col-lg-4 col-xs-12">
-                            <h3>Redes Sociales</h3>
-                            <ul>
-                                
-                                <li><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/animalistasderosario/?hl=es-la" target="_blank"> Instagram</a></li>
-                                <li><i class="fab fa-facebook-square"></i><a href="https://es-la.facebook.com/AnimalistasdeRosario/" target="_blank"> Facebook</a></li>
-                                <li><i class="fab fa-twitter"></i><a href="https://twitter.com/_animalistas" target="_blank"> Twitter</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="pie3 col-lg-4 col-sm-12">
+                    <h3>Redes Sociales</h3>
+                    <ul>
+                        <li class="d-flex col-lg-12 justify-content-center footer__listitem "><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/animalistasderosario/?hl=es-la" target="_blank">  Instagram</a></li>
+                        <li class="d-flex col-lg-12 justify-content-center footer__listitem"><i class="fab fa-facebook-square"></i><a href="https://es-la.facebook.com/AnimalistasdeRosario/" target="_blank">  Facebook</a></li>
+                        <li class="d-flex col-lg-12 justify-content-center footer__listitem"><i class="fab fa-twitter"></i><a href="https://twitter.com/_animalistas" target="_blank">  Twitter</a></li>
+                        
+                    </ul>
+                </div>
             </div>
-            </footer>
+       
+        </div>
+     </footer>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
  </body>
