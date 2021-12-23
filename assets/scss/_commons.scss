@@ -3,10 +3,34 @@
 $success: rgb(93, 93, 223);
 $danger: rgb(255, 34, 0);
 
-// displya
+// display
 $d-block: block;
 $d-flex: flex;
 
+@mixin flex {
+    display: flex;
+    
+}
+@mixin flex-row{
+    @include flex;
+    flex-direction: row;
+}
+
+@mixin flex-row-justcenter {
+    @include flex-row;
+    justify-content: center;
+    
+}
+
+@mixin flex-column{
+    @include flex;
+    flex-direction: column;
+}
+@mixin flex-column-justCenter {
+    @include flex-column;
+    justify-content: center;
+    
+}
 @for $i from 1 through 3 {
     .textSize-#{$i}{font-size: 1em * $i;}
 }
@@ -28,5 +52,18 @@ h1{
     color: rgba(63, 105, 191, 1);
 }
 h2{
-    font-size: 3em;
+    font-size: 2em;
+    color: rgba(63, 105, 191, 1);
 }
+
+h3{
+    font-size: 1.5em;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+

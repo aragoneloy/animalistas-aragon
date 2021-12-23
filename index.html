@@ -22,11 +22,11 @@
 </head>
 <body class="cuerpo">
 <!-- nav de bootstrap -->
-    <nav class="navbar navbar-dark navbar-expand-lg textSize-2  " id="botonera">
-        <div class="container-fluid">
+    <nav class="navbar navbar-dark navbar-expand-lg textSize-2 mb-2" id="botonera">
+        <div class="container-fluid col-lg-10 col-md-10">
         <a class="navbar-brand " href="index.html">
             
-            <img src=".\assets\imgs\logo.svg" class="nav__logo--small" alt="" id="logo">
+            <img src="./assets/imgs/logo.jpg" class="nav__logo--small" alt="" id="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
   
 
     <div class="container-fluid">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center ">
             <header class="imgHeroe  col-md-10 col-xs-12 d-none d-md-flex">
                 <img src=".\assets\imgs\anoir-chafik-2_3c4dIFYFU-unsplash.jpg" class="img-fluid" alt="perros sentados mirando a la camara">
             </header>
@@ -70,42 +70,46 @@
         <!-- modelando con bootstrap -->
         <section>
             <div class="container-fluid nuestrosLogros">
-                <h2 class="justify-content-center mb-3">Nuestros logros</h2>
-                <div class="row gx-5 gy-4 justify-content-center align-items-center mb-4">
-                    <article class="col-lg-2 col-md-6  mb-sm-3 card mx-3 logro ">
+                <div class="row" > 
+                    <h2 class=" col-lg-6 col-md-10 col-xs-12 justify-content-center my-5 py-5">ANIMALISTAS DE ROSARIO</h2>
+                </div>
+               
+                <div class="row gx-5 gy-4 justify-content-center align-items-center mb-4 d-flex align-items-stretch">
+                    
+                    <article class="col-xl-2 col-lg-4 col-md-6 pt-4 mb-sm-3 card mx-3 card-size ">
                         <img src=".\assets\imgs\photo_2021-10-19_06-09-39.jpg" class="imgLogro w-100 rounded animate__slideInUp" alt="gatos en fila sedados luego de ser castrados" >
                         <div class="card-body">
                             <h3 class="text-primary card-title">Campaña de castracion en Rosario</h3>
-                            <p class=" card-text">Una vez por mes hacemos castraciones de manera gratuita tanto de gatos como de perros.
+                            <p class="fs-2 card-text">Una vez por mes hacemos castraciones de manera gratuita tanto de gatos como de perros.
                             </p>
                         </div>
                         
                     </article>
                     <!-- cierra box 1 -->
-                    <article class="col-lg-2 col-md-6  mb-sm-3 card mx-3 logro">
-                        <img src=".\assets\imgs\thomas-park-On6bRQRn5lY-unsplash.jpg" alt="gato enjaulado mirando hacia afuera" class="imgLogro w-100  rounded-1 card-img-top">
+                    <article class="col-xl-2 col-lg-4 col-md-6 pt-4 mb-sm-3 card mx-3 card-size bg-dark text-light">
+                        <img c src=".\assets\imgs\thomas-park-On6bRQRn5lY-unsplash.jpg" alt="gato enjaulado mirando hacia afuera" class="imgLogro w-100  rounded-1 card-img-top">
                         <div class="card-body">
                             <h3 class="text-primary card-title">Adopcion de gatos</h3>
-                            <p class=" card-text">En este momento hay mas de 200 gatitos esperando a ser adoptados. No compres, adoptá!
+                            <p class="fs-2 card-text">En este momento hay mas de 200 gatitos esperando a ser adoptados. No compres, adoptá!
                             </p>
                         </div>
                         
                     </article>
                     <!-- cierra box 2 -->
-                    <article class="col-lg-2 col-md-6  mb-sm-3 card mx-3 logro">
+                    <article class="col-xl-2 col-lg-4 col-md-6 pt-4 mb-sm-3 card mx-3 card-size">
                         <img src=".\assets\imgs\alvan-nee-eoqnr8ikwFE-unsplash.jpg" alt="corgi cachorro sentado" class="imgLogro w-100  rounded-1 card-img-top" >
                         <div class="card-body">
                             <h3 class="text-primary card-title">Fotografia de mascotas para recaudar fondos</h3>
-                            <p class="card-text">Trae a tu mejor amigo a hacer fotitos, lo recaudado sera usado para ayudar a otros animalitos.</p>
+                            <p class="fs-2 card-text">Trae a tu mejor amigo a hacer fotitos, lo recaudado sera usado para ayudar a otros animalitos.</p>
                         </div>
                         
                     </article>
                     <!-- cierra box 3 -->
-                    <article class="col-lg-2 col-md-6  mb-sm-3 card mx-3 logro">
+                    <article class="col-xl-2 col-lg-4 col-md-6 pt-4 mb-sm-3 card mx-3 card-size bg-dark text-light">
                         <img src=".\assets\imgs\sasha-sashina-Xcscr_sNSEY-unsplash.jpg" alt="perros callejeros en una jaula tristes" class="imgLogro w-100  rounded-1 card-img-top" >
                         <div class="card-body">
                             <h3 class="text-primary card-title">Denuncia el maltrato animal</h3>
-                            <p class="card-text display-xs-none">Si ves algun animal en situacion de maltrato o malas condiciones de vida, no dudes en comunicarte con nosotros.</p>
+                            <p class="fs-2 card-text display-xs-none">Si ves algun animal en situacion de maltrato o malas condiciones de vida, no dudes en comunicarte con nosotros.</p>
                         </div>
                         
                     </article>
@@ -115,7 +119,7 @@
             </div>
         </section>
 
-
+    </div>    
         <!-- fin modelado bst -->
 
 
@@ -127,41 +131,55 @@
             
                 <div class="row text-center">
                     <div class="pie1 col-lg-4 col-sm-12">
-                        <h3 class=" ">Enlaces utiles</h3>
+                        <h3 class="footer__header ">Enlaces útiles</h3>
     
                         <ul>
                             <li class="footer__listitem"> 
                                 <a href="https://www.facebook.com/SaludAnimalRosario/">Instituto Municipal de Salud Animal</a>
                             </li>
                             <li class="footer__listitem">
-                                <a href="#"></a>
+                                <a href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/maltrato-animales">Derechos de los animales</a>
+                            </li>
+                            <li class="footer__listitem">
+                                <a href="https://www.santafe.gov.ar/index.php/web/content/view/full/198373/(subtema)/199106">Centros territoriales de denuncias Santa Fe</a>
                             </li>
                         </ul>
                     </div>
     
                     <div class="pie2 col-lg-4 col-sm-12">
-                        <h3>Contacto</h3>
+                        <h3 class="footer__header">Contacto</h3>
                         <ul>
                             <li class="footer__listitem"> 
                                 <a href="https://goo.gl/maps/n1jUt3NEZzgTajrU7">Calle falsa 123 - Rosario, Santa fe</a>
                             
                             </li>
                             <li class="footer__listitem">
-                                <a href="tel:6625145">Dudas o informacion? 6625145 :)</a>
+                                <a href="tel:6625145">Charlemos! 6625145 :)</a>
+                            </li>
+                            <li class="footer__listitem">
+                                <a href="mailto:protectorarosario@gmail.com">Escribinos por mail!</a>
                             </li>
                         </ul>
                     </div>
     
-                    <div class="pie3 col-lg-4 col-sm-12">
-                        <h3>Redes Sociales</h3>
-                        <ul>
-                            <li class="d-flex col-lg-12 justify-content-center footer__listitem "><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/animalistasderosario/?hl=es-la" target="_blank">  Instagram</a></li>
-                            <li class="d-flex col-lg-12 justify-content-center footer__listitem"><i class="fab fa-facebook-square"></i><a href="https://es-la.facebook.com/AnimalistasdeRosario/" target="_blank">  Facebook</a></li>
-                            <li class="d-flex col-lg-12 justify-content-center footer__listitem"><i class="fab fa-twitter"></i><a href="https://twitter.com/_animalistas" target="_blank">  Twitter</a></li>
-                            
+                    <div class=" col-lg-4 col-sm-12">
+                        <h3 class="footer__header">Redes Sociales</h3>
+                        
+                        <ul class="list-group list-group-horizontal justify-content-evenly ">
+                            <li class="d-flex  justify-content-center footer__listitem ">
+                                <a class="list-group-item list-group-item-action " href="https://www.instagram.com/animalistasderosario/?hl=es-la" target="_blank"><i class="fab fa-4x fa-instagram-square"></i> </a>
+                            </li>
+                            <li class="d-flex  justify-content-center footer__listitem">
+                                <a class="list-group-item list-group-item-action list-group-item-primary" href="https://es-la.facebook.com/AnimalistasdeRosario/" target="_blank"><i class="fab fa-4x fa-facebook-square"></i>  </a>
+                            </li>
+                            <li class="d-flex  justify-content-center footer__listitem">
+                                <a class="list-group-item list-group-item-action list-group-item-info" href="https://twitter.com/_animalistas" target="_blank"> <i class="fab fa-4x fa-twitter"></i> </a>
+                            </li>
+                                
                         </ul>
+                        
                     </div>
-                    <p class="copyright text-secondary">Copyright 2021 Eloy Aragon. Todos los derechos reservados.</p>
+                    <p class="copyright text-secondary fs-5">Copyright 2021 Animalistas Rosario. Todos los derechos reservados.</p>
                 </div>
            
             </div>

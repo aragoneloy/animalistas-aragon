@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem; }
 
 .textSize-1 {
   font-size: 1em; }
@@ -26,7 +28,16 @@ h1 {
   color: #3f69bf; }
 
 h2 {
-  font-size: 3em; }
+  font-size: 2em;
+  color: #3f69bf; }
+
+h3 {
+  font-size: 1.5em; }
+
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .header__container {
   padding: 10px;
@@ -46,17 +57,17 @@ h2 {
   text-align: center; }
 
 .header__text--small {
-  font-size: 1.5em; }
+  font-size: 1em; }
 
-.section__container, .section__container--backgroundcolor, .section__container--border {
-  padding: 50px 0;
+.section__container {
+  margin: 10px;
+  padding: 30px 30px;
   text-align: center;
-  border: 3px solid #444b72;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 .section__container--backgroundcolor {
   background-color: lavender; }
@@ -77,30 +88,54 @@ h2 {
   border-radius: 0.5em;
   box-shadow: blueviolet;
   margin-top: 20px;
-  font-size: 1.2em; }
+  font-size: 1em; }
 
-.section__button--hover:hover {
-  background-color: #53789b;
-  color: #bfac74; }
-
-.logro:hover {
+.card:hover {
   transform: scale(1.03, 1.03);
   background-color: lightblue;
-  transition: 0.5s;
-  cursor: pointer; }
+  transition: 0.5s; }
 
 .nuestrosLogros h2 {
   color: #3f69bf;
   text-align: center;
   padding: 20px 0 0 0;
-  font-size: 3rem;
   font-weight: 500;
   width: 100%;
   letter-spacing: 10px; }
 
+.videoAyuda {
+  height: 40vh;
+  overflow: hidden; }
+
+.card-size {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.tabla {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid #bfac74;
+  border-right: 1px solid #bfac74;
+  background-color: #526281;
+  color: #bfac74; }
+
+.tabla > div {
+  padding: 8px 4px;
+  border-left: 2px solid #bfac74;
+  border-bottom: 2px solid #bfac74; }
+
+.gifError {
+  width: 50vh;
+  height: auto; }
+
+.cuerpoError404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 footer {
   background-color: #bfac74;
-  bottom: 0;
   width: 100%;
   padding-top: 10px;
   background: #a78555;
@@ -158,135 +193,3 @@ footer {
 .nav__button--success {
   color: aliceblue;
   background-color: #5d5ddf; }
-
-.colaborar{
-  padding: 30px;
-  height: 30%;
-
-}
-  .colaborar h1{
-    font-size: 3em;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px;
-    }
-
-    .colaborar p{
-      font-size: 2em;
-    }
-
-.ayuda{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-    
-}
-.videoAyuda{
-  overflow: hidden;
-  height: 50vh;
-        
-    }
-.ayudarDonar{
-  background-color: lavender;
-  border-radius: 0.5em;
-  padding: 30px;
-  text-align: center;
-  border: 1px solid rgba(68, 75, 114, 1);
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content: center;
-
-
-    }
-.ayudarDonar h2{
-  text-align: center;
-  font-size: 2em;
-        
-    }
-
-.ayudarDonar button{
-        
-        border: 1px solid black;
-        padding: 10px;
-        border-radius: 0.5em;
-        box-shadow: blueviolet;
-        margin-top: 20px;
-        font-size: 1.5em;
-
-    }
-
-.ayudarDonar button:hover{
-  background-color: rgb(83, 120, 155); 
-  color: rgba(191, 172, 116, 1);       
-        
-    }
-
-.estadisticas h2{
-  font-size: 2em;
-  text-align: center;
-  padding: 10px 0;
-  font-weight: 500;
-     }
-     
-.estadisticas{
-  color: ;
-  padding-bottom: ;
-  font-size: 1.5em;
-  text-align: center;
-                
-  }
- 
- 
- .tabla{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  border-top: 1px solid rgba(191, 172, 116, 1);
-  border-right: 1px solid rgba(191, 172, 116, 1);
-  background-color: rgb(82, 98, 129);
-  color: rgba(191, 172, 116, 1);
-     
- }
- .tabla > div{
-  padding: 8px 4px;
-  border-left: 2px solid rgba(191, 172, 116, 1);
-  border-bottom: 2px solid rgba(191, 172, 116, 1);
- }
-
- #conocenos{
-  height: auto;
-}
- 
-.section{
-    font-size: 2em;  
-    padding: 15px;
-
-} 
-.section h2{
-        font-size: 2em;
-        font-weight: 400;
-        color: rgba(63, 105, 191, 1);
-        margin: 0 0 10px 0;
-  }
-  .section p{
-        font-size: 1em;
-    
-    }
-.objetivos{
-  
-       
-    
-    }
-  .objetivos h1{
-    font-size: 3rem;
-    text-align: center;
-    padding: 10px 0;
-        }
-
-.cuerpo{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-   }
-  
